@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  这个是背景颜色  -->
+<!--    <solid android:color="#00af64"/>-->
+<!--    <gradient-->
+<!--        android:angle="135"-->
+<!--        android:endColor="#EEAD92"-->
+<!--        android:startColor="#6018DC" />-->
+<!--    <gradient-->
+<!--        android:angle="135"-->
+<!--        android:endColor="#E2B0FF"-->
+<!--        android:startColor="#9F44D3" />-->
+<!--    <gradient-->
+<!--        android:angle="135"-->
+<!--        android:endColor="#FFF5C3"-->
+<!--        android:startColor="#9452A5" />-->
+    <gradient
+        android:angle="135"
+        android:endColor="#E8D07A"
+        android:startColor="#5312D6" />
+
+</shape>

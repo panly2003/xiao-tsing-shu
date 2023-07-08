@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  这个是背景颜色  -->
+    <solid android:color="#eee"/>
+
+<!--     这个是圆角外圈的粗细和颜色 ，可忽略-->
+<!--      这个是圆角属性-->
+    <corners
+        android:radius="10dp"/>
+</shape>

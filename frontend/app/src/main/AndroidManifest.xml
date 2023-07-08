@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera.any" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/MainTheme"
+        tools:targetApi="31">
+
+
+        <activity
+            android:name=".Chat"
+            android:exported="false" />
+        <activity
+            android:name=".OthersProfile"
+            android:exported="false" />
+        <activity
+            android:name=".IntroRevise"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".NicknameRevise"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".PasswordRevise"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".HateList"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".FanList"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".Person"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".CareList"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".ProfileRevise"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".Nav"
+            android:exported="false"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".Release"
+            android:exported="false"
+            android:foregroundServiceType="location"
+            android:parentActivityName=".Nav"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".Detail"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".ui.mine.Profile"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".LogIn"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".SignUpSuccess"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
